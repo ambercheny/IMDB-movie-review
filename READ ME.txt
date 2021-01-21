@@ -1,0 +1,7 @@
+In this project, we have 
+- training dataset: two folders (neg, pos), consisting of 12500, 12500 text files respectively; file names consist of id and rating
+    - rating 1-5 as neg, 6-10 as pos
+- testing dataset: a csv file (test_dataset) with columns - id, title and content
+
+We will first read training data into a dataframe in "Read_training_data.py"
+Then do NLP preprocessing and model development & prediction in "NLP.py"
